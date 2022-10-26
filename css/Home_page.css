@@ -1,0 +1,32 @@
+.body{
+    background-color: rgb(255, 255, 255);
+}
+#side_nav{
+    background-color: black;
+    min-width: 250px;
+    max-width: 250px;
+}
+.content{
+    min-height: 100vh;
+    width: 100%;
+}
+hr.h-color{
+    background: rgb(194, 46, 46);
+    border: 1px solid white;
+}
+
+.sidebar li a{
+    color: #fff;
+}
+
+/* @media(max-width: 767px){
+    #side_nav{
+        margin-left: -250px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+    }
+    #side_nav.active{
+        margin-left: 0;
+    }
+} */

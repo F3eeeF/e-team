@@ -1,0 +1,14 @@
+@media(min-width : 768px){
+    .new-input{
+        width: 50%;
+    }
+}
+.search-bar{
+    background: rgb(93, 22, 224);
+}
+.container{
+    display: flex;
+}
+.body{
+    background-color: black;
+}
