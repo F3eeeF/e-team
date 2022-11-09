@@ -1,9 +1,8 @@
 .body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 241, 241);
 }
 #sidebar_menu{
     background-color: rgba(255, 255, 255, .1);
-
     position: fixed;
     top: 0;
     bottom: 0;
@@ -38,11 +37,20 @@ hr.h-color{
 }
 
 .sidebar li a{
-    color: rgb(17, 11, 11);
+    color: rgb(224, 202, 202);
 }
 
 
 
-.img{
-    z-index: -50;
+
+
+#sidebar{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    min-width:250px;
+    max-width:250px;
+    background:rgb(255, 255, 255);
+    color:#fff;
+    box-shadow: inset -2px 0 0 rgba(0, 0, 0, .1);
 }

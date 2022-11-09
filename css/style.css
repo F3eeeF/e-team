@@ -9,10 +9,8 @@
 .container{
     display: flex;
 }
-.body{
-    background-color: black;
-}
 .bg-eteam-orange {
     background-color: #EE8119 !important;
 }
+
 
